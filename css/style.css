@@ -26,7 +26,7 @@ body {
   width: 65vw;
   border: 2px dashed rgba(230, 230, 230, .5);
   border-radius: 3px;
-  margin: 10rem auto 2rem;
+  margin: 5rem auto 2rem;
 }
 #colour-gradient::after {
   position: absolute;
@@ -41,7 +41,7 @@ body {
 #box > div,
 #colour-gradient > div {
   float: left;
-  width: calc(100% / 7);
+  width: calc(100% / 8);
   height: 30vh;
 }
 #colour-gradient > div.colour-start {
@@ -57,18 +57,18 @@ body {
 .palette-outer {
   background: url(../images/colour-palette.png) no-repeat center;
   background-size: contain;
-  height: 30rem;
+  height: 25rem;
 }
 #colour-palette {
-  width: 45vw;
+  width: 40vw;
   margin: 0 auto 0;
-  padding-top: 5.5rem;
+  padding-top: 4.7rem;
 }
 #colour-palette > div {
   float: left;
   margin: 1rem;
-  width: 7rem;
-  height: 7rem;
+  width: 5.5rem;
+  height: 5.5rem;
   border-radius: 50%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
 }
