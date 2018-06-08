@@ -96,15 +96,15 @@ $(document).ready(function () {
       }
       if (userAnswer === game.correctAnswer) {
         $('.overlay').fadeIn();
-        console.log('correct');
+        $('.overlay > p > span').text(moveCounter);
       } 
-      console.log(moveCounter, game.correctAnswer);
+      console.log(game.correctAnswer);
     }
     // var getClass = ui.item.closest('div').attr('class').split(' ')[0];
     // var c = $('.' + getClass).next();
     // console.log(c);
   }).disableSelection();
-
+  
   $(".play").click(function() {
     $('.overlay').fadeOut();
     location.reload();
